@@ -1,0 +1,172 @@
+.spring-container{
+
+    .Spring-img{
+        background: linear-gradient( rgba(0, 0, 0, 0.231), rgba(0, 0, 0, 0.231)) , url('./pop-3-bg.jpg');
+        margin: auto;
+        height: 550px;
+        width: 1150px;
+        background-size: cover;
+        object-fit: cover;
+        background-attachment: fixed;
+        background-position: center;
+        
+
+        .text-overlay {
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: white;
+            font-size: 24px;
+            letter-spacing: 1.7px;
+            p{
+                font-size: 10px;
+                margin-bottom: 7px;
+            }
+            h4{
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    .women-spring-collection{
+        margin-top: 100px;
+        // border: 2px solid red;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .spring-img-1{
+            position: relative;
+            background-color: #faecec;
+            right: 30px;
+            // border: 2px solid blue;
+            width: 600px;
+            height: 550px;
+            display: flex;
+            justify-content: center;
+            .spring-img-2{
+                height: 500px;
+                position: relative;
+                bottom: 50px;
+            }
+        }
+        .spring-text-wrapper{
+            position: relative;
+            right: 88px;
+            letter-spacing: 1.1px;
+            width: 400px;
+            span{
+                font-size: 12px;
+                font-weight: 300;
+            }
+            h3{
+                margin-top: 7px;
+                font-weight: 900;
+                font-size: 25px;
+            }
+            p{
+                font-size: 12px;
+                color: rgba(0, 0, 0, 0.712);
+                margin-top: 10px;
+                margin-bottom: 20px;
+                line-height: 18px;
+            }
+        }
+    }
+
+}
+.review-container{
+    // border: 2px solid red;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    p{
+        width: 40%;
+        margin: 15px 0;
+        margin-bottom: 20px;
+        text-decoration: underline;
+        font-weight: 600;
+    }
+    .jane{
+        color: rgba(0, 0, 0, 0.804);
+        font-weight: 100;
+        font-size: smaller;
+    }
+    span{
+        color: rgb(255, 196, 0);
+    }
+}
+.pop-container-2{
+    height: 460px;
+    // border: 2px solid red;
+    
+    .pop-text-wrapper-2{
+        // border: 2px solid red;
+        margin-top: 70px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        p{
+            margin-bottom: 7px;
+            font-weight: lighter;
+            font-size: 11px;
+            color: rgba(0, 0, 0, 0.667);
+        }
+        h2{
+            font-size: 33px;
+        }
+
+    }
+    .pop-tshirts-row-2{
+        margin: auto;
+        margin-top: 20px;
+        // border: 2px solid red;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+}
+.men-women-card{
+    // border: 2px solid red;
+    height: 400px;
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    .cat-men-card, .cat-women-card{
+        cursor: pointer;
+        img{
+            height: 400px;
+        }
+        p{
+            position: relative;
+            bottom: 45px;
+            font-size: 11px;
+            letter-spacing: 1.1px;
+            font-weight: 800;
+            // border: 2px solid red;
+            width: 90%;
+            margin: auto;
+            text-align: center;
+            background-color: #ffffff;
+            height: 30px;
+            opacity: .85;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &:hover{
+                opacity: 1;
+            }
+            
+        }
+    }
+}

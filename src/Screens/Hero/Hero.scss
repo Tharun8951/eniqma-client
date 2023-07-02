@@ -1,0 +1,46 @@
+.container {
+    height: 525px;
+    background-color: #fbeced;
+    display: flex;
+    flex-direction: row;
+  
+    .text-wrapper{
+        z-index: 10;
+        position: relative;
+        top: 30%;
+        left: 200px;
+        p{
+            letter-spacing: 1.1px;
+            font-size: 12px;
+            margin-bottom: 7px;
+        }
+        h1{
+            font-weight: 900;
+            font-size: 42px;
+        }
+    }
+    .shop-collection{
+         margin: 20px 0;
+    }
+   
+    .img-wrapper {
+      position: relative;
+      right: 70px;
+  
+      #bg-blob {
+        position: absolute;
+        left: 400px;
+        bottom: 100px;
+        width: 500px;
+        z-index: 1;
+      }
+  
+      #bg-img {
+        position: relative; /* or position: absolute; */
+        left: 450px;
+        width: 442px;
+        z-index: 1;
+      }
+    }
+  }
+  

@@ -1,0 +1,47 @@
+.footer-container{
+    height: 350px;
+    background-color: #fbeced;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    h2{
+        margin-top: 60px;
+    }
+    .email-input-sec{
+        // border: 2px solid red;
+        width: 600px;
+        display: flex;
+        flex-direction: row;
+        input{
+            width: 100%;
+        }
+    }
+
+    .footer-nav{
+        a{
+            text-decoration: none;
+            color: #000000b9;
+        }
+        font-size: 13px;
+        width: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    p{
+        // border: 2px solid red;
+        font-size: 10px;
+        letter-spacing: 1.2px;
+        width: 100%;
+        color: white;
+        text-align: center;
+        background-color: black;
+        height: 60px;
+        margin-bottom: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

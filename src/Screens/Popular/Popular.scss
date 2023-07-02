@@ -1,0 +1,66 @@
+.pop-container{
+    height: 1050px;
+    // border: 2px solid red;
+
+    .pop-text-wrapper{
+        margin-top: 70px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        p{
+            margin-bottom: 7px;
+            font-weight: lighter;
+            font-size: 11px;
+            color: rgba(0, 0, 0, 0.667);
+        }
+        h2{
+            font-size: 33px;
+        }
+
+    }
+    .pop-tshirts-row{
+        margin: auto;
+        margin-top: 20px;
+        // border: 2px solid red;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .pop-container-2{
+        margin: auto;
+        margin-top: 80px;
+        height: 460px;
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        .img1{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            
+            button{
+                width: 100px;
+                margin: auto;
+                margin-top: 10px;
+                
+            }
+
+            span{
+                font-size: 12px;
+                font-weight: 300;
+                margin-top: 10px;
+            }
+
+            h2{
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+
+            img{
+                width: 520px;
+            }
+        }
+    }
+}

@@ -1,0 +1,33 @@
+.navbar-main {
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    height: 60px;
+    width: 98.5vw;
+    // border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    a {
+      margin-right: 30px;
+      text-decoration: none;
+      color: #010100;
+    }
+    
+    .middle-nav {
+      font-size: 16px;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  
+    .left-nav {
+      font-size: 13px;
+      letter-spacing: 1.5px;
+      display: flex;
+      justify-content: space-between;
+      width: 200px;
+      // border: 2px solid red;
+    }
+  }
+  
